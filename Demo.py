@@ -5,8 +5,12 @@ class Cuadrado:
     def area(self):
         return self.lado ** 2
 
-Numlado = Cuadrado(25122023)
-print("Lado del cuadrado:",Numlado.area())
+################################
+lado=int (input("Ingresa el lado?"))
+mi_ejemplo=Cuadrado(lado)
+r=mi_ejemplo.area()
+print(f"el area es?{r}")
+
 
 
 
